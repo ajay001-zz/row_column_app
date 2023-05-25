@@ -38,6 +38,13 @@ class MyApp extends StatelessWidget {
                         child: Text('Container 3'),
                       ),
                     ),
+                    Container(
+                      color: Colors.pink,
+                      child: Padding(
+                        padding: const EdgeInsets.all(15.0),
+                        child: Text('Container 3'),
+                      ),
+                    ),
                   ],
                 ),
                 Container(
